@@ -187,3 +187,7 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 └─────────────────────────────────────────┘
 ```
 
+---
+
+## 📁 Project Structure
+
