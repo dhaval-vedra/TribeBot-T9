@@ -1,9 +1,6 @@
-<div align="center">
-
-<img src="assets/banner.svg" alt="TribeBot T9 Banner" width="100%"/>
-
-<br/>
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Banner" width="100%"/>
+</p>
 <!-- Badges -->
 <a href="https://github.com/dhaval-vedra/TribeBot-T9/stargazers">
   <img src="https://img.shields.io/github/stars/dhaval-vedra/TribeBot-T9?style=for-the-badge&logo=github&color=a78bfa&labelColor=0f0c29" alt="Stars"/>
