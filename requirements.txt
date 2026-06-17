@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────
+# TribeBot T9 — Python Dependencies
+# ─────────────────────────────────────────────────────────────
+# Install:  pip install -r requirements.txt
+#
+# PyTorch must be installed separately following the official guide:
+#   https://pytorch.org/get-started/locally/
+# ─────────────────────────────────────────────────────────────
+
+# ── Core Deep Learning ───────────────────────────────────────
+torch>=2.1.0             # Required for scaled_dot_product_attention, torch.amp
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# ── Transformers & Tokenisation ──────────────────────────────
+transformers>=4.38.0
+tokenizers>=0.15.0
+sentencepiece>=0.1.99    # For SentencePiece-based tokenisers
+
+# ── Optional: Flash Attention 2 (GPU only) ───────────────────
+# Uncomment if you have CUDA 11.8+ and a compatible GPU:
+# flash-attn>=2.5.0
+
+# ── Numerical / Scientific ───────────────────────────────────
+numpy>=1.24.0
+
+# ── Training Utilities ───────────────────────────────────────
+tqdm>=4.66.0             # Progress bars
+tensorboard>=2.15.0      # TensorBoard logging
+
+# ── Experiment Tracking (optional) ──────────────────────────
+# wandb>=0.16.0          # Uncomment to enable Weights & Biases
+
+# ── Data Processing ──────────────────────────────────────────
+datasets>=2.14.0         # HuggingFace datasets
+einops>=0.7.0            # Tensor rearrangement
+
+# ── Development / Testing ────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0

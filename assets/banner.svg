@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#302b63"/>
+      <stop offset="100%" style="stop-color:#24243e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="50%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#34d399"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f0abfc"/>
+      <stop offset="40%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#60a5fa"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textglow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg)" rx="16"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="4" fill="url(#accent)" rx="2"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.06" stroke="#a78bfa" stroke-width="0.5">
+    <line x1="0" y1="50"  x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="250" x2="900" y2="250"/>
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+    <line x1="800" y1="0" x2="800" y2="300"/>
+  </g>
+
+  <!-- Neural network decoration (left) -->
+  <g opacity="0.5">
+    <!-- Nodes -->
+    <circle cx="60"  cy="80"  r="5" fill="#a78bfa" filter="url(#glow)"/>
+    <circle cx="60"  cy="150" r="5" fill="#60a5fa" filter="url(#glow)"/>
+    <circle cx="60"  cy="220" r="5" fill="#34d399" filter="url(#glow)"/>
+    <circle cx="130" cy="110" r="5" fill="#f472b6" filter="url(#glow)"/>
+    <circle cx="130" cy="190" r="5" fill="#fbbf24" filter="url(#glow)"/>
+    <circle cx="200" cy="150" r="6" fill="#a78bfa" filter="url(#glow)"/>
+    <!-- Connections -->
+    <line x1="60" y1="80"  x2="130" y2="110" stroke="#a78bfa" stroke-width="1.2" opacity="0.6"/>
+    <line x1="60" y1="80"  x2="130" y2="190" stroke="#a78bfa" stroke-width="0.8" opacity="0.3"/>
+    <line x1="60" y1="150" x2="130" y2="110" stroke="#60a5fa" stroke-width="1.2" opacity="0.6"/>
+    <line x1="60" y1="150" x2="130" y2="190" stroke="#60a5fa" stroke-width="1.2" opacity="0.6"/>
+    <line x1="60" y1="220" x2="130" y2="110" stroke="#34d399" stroke-width="0.8" opacity="0.3"/>
+    <line x1="60" y1="220" x2="130" y2="190" stroke="#34d399" stroke-width="1.2" opacity="0.6"/>
+    <line x1="130" y1="110" x2="200" y2="150" stroke="#f472b6" stroke-width="1.2" opacity="0.6"/>
+    <line x1="130" y1="190" x2="200" y2="150" stroke="#fbbf24" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- Neural network decoration (right) -->
+  <g opacity="0.5">
+    <circle cx="840" cy="80"  r="5" fill="#34d399" filter="url(#glow)"/>
+    <circle cx="840" cy="150" r="5" fill="#60a5fa" filter="url(#glow)"/>
+    <circle cx="840" cy="220" r="5" fill="#a78bfa" filter="url(#glow)"/>
+    <circle cx="770" cy="110" r="5" fill="#fbbf24" filter="url(#glow)"/>
+    <circle cx="770" cy="190" r="5" fill="#f472b6" filter="url(#glow)"/>
+    <circle cx="700" cy="150" r="6" fill="#34d399" filter="url(#glow)"/>
+    <line x1="840" y1="80"  x2="770" y2="110" stroke="#34d399" stroke-width="1.2" opacity="0.6"/>
+    <line x1="840" y1="150" x2="770" y2="110" stroke="#60a5fa" stroke-width="1.2" opacity="0.6"/>
+    <line x1="840" y1="150" x2="770" y2="190" stroke="#60a5fa" stroke-width="1.2" opacity="0.6"/>
+    <line x1="840" y1="220" x2="770" y2="190" stroke="#a78bfa" stroke-width="1.2" opacity="0.6"/>
+    <line x1="770" y1="110" x2="700" y2="150" stroke="#fbbf24" stroke-width="1.2" opacity="0.6"/>
+    <line x1="770" y1="190" x2="700" y2="150" stroke="#f472b6" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="450" y="115" font-family="'Arial Black', 'Impact', sans-serif" font-size="62" font-weight="900"
+        fill="url(#titleGrad)" text-anchor="middle" filter="url(#textglow)" letter-spacing="2">
+    TribeBot T9
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="158" font-family="'Arial', sans-serif" font-size="18" font-weight="400"
+        fill="#c4b5fd" text-anchor="middle" letter-spacing="1" opacity="0.9">
+    Advanced Reasoning Large Language Model
+  </text>
+
+  <!-- Accent line -->
+  <rect x="300" y="172" width="300" height="2" fill="url(#accent)" rx="1" opacity="0.8"/>
+
+  <!-- Feature pills -->
+  <!-- Pill 1 -->
+  <rect x="178" y="192" width="110" height="28" rx="14" fill="#1e1b4b" stroke="#a78bfa" stroke-width="1" opacity="0.9"/>
+  <text x="233" y="211" font-family="'Arial', sans-serif" font-size="11" font-weight="600"
+        fill="#a78bfa" text-anchor="middle">🧠 Reasoning</text>
+
+  <!-- Pill 2 -->
+  <rect x="298" y="192" width="108" height="28" rx="14" fill="#1e1b4b" stroke="#60a5fa" stroke-width="1" opacity="0.9"/>
+  <text x="352" y="211" font-family="'Arial', sans-serif" font-size="11" font-weight="600"
+        fill="#60a5fa" text-anchor="middle">⚡ Flash Attn</text>
+
+  <!-- Pill 3 -->
+  <rect x="416" y="192" width="110" height="28" rx="14" fill="#1e1b4b" stroke="#34d399" stroke-width="1" opacity="0.9"/>
+  <text x="471" y="211" font-family="'Arial', sans-serif" font-size="11" font-weight="600"
+        fill="#34d399" text-anchor="middle">💾 Memory</text>
+
+  <!-- Pill 4 -->
+  <rect x="536" y="192" width="112" height="28" rx="14" fill="#1e1b4b" stroke="#fbbf24" stroke-width="1" opacity="0.9"/>
+  <text x="592" y="211" font-family="'Arial', sans-serif" font-size="11" font-weight="600"
+        fill="#fbbf24" text-anchor="middle">🔬 Research</text>
+
+  <!-- Bottom stats -->
+  <text x="225" y="262" font-family="'Arial', sans-serif" font-size="13" font-weight="700"
+        fill="#f0abfc" text-anchor="middle">350M–70B</text>
+  <text x="225" y="278" font-family="'Arial', sans-serif" font-size="10"
+        fill="#8b7fb8" text-anchor="middle">Parameters</text>
+
+  <text x="350" y="262" font-family="'Arial', sans-serif" font-size="13" font-weight="700"
+        fill="#93c5fd" text-anchor="middle">262K</text>
+  <text x="350" y="278" font-family="'Arial', sans-serif" font-size="10"
+        fill="#8b7fb8" text-anchor="middle">Context Tokens</text>
+
+  <text x="475" y="262" font-family="'Arial', sans-serif" font-size="13" font-weight="700"
+        fill="#6ee7b7" text-anchor="middle">7 Modules</text>
+  <text x="475" y="278" font-family="'Arial', sans-serif" font-size="10"
+        fill="#8b7fb8" text-anchor="middle">Reasoning Stack</text>
+
+  <text x="600" y="262" font-family="'Arial', sans-serif" font-size="13" font-weight="700"
+        fill="#fcd34d" text-anchor="middle">Pure PyTorch</text>
+  <text x="600" y="278" font-family="'Arial', sans-serif" font-size="10"
+        fill="#8b7fb8" text-anchor="middle">No Extra Deps</text>
+
+  <text x="725" y="262" font-family="'Arial', sans-serif" font-size="13" font-weight="700"
+        fill="#f9a8d4" text-anchor="middle">MIT License</text>
+  <text x="725" y="278" font-family="'Arial', sans-serif" font-size="10"
+        fill="#8b7fb8" text-anchor="middle">Open Source</text>
+
+  <!-- Separator dots -->
+  <circle cx="287" cy="270" r="2" fill="#4b4580" opacity="0.6"/>
+  <circle cx="412" cy="270" r="2" fill="#4b4580" opacity="0.6"/>
+  <circle cx="537" cy="270" r="2" fill="#4b4580" opacity="0.6"/>
+  <circle cx="662" cy="270" r="2" fill="#4b4580" opacity="0.6"/>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="296" width="900" height="4" fill="url(#accent)" rx="2"/>
+</svg>
