@@ -242,7 +242,7 @@ TribeBot-T9/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/TribeBot-T9.git
+git clone https://github.com/dhaval-vedra/TribeBot-T9.git
 cd TribeBot-T9
 ```
 
