@@ -191,3 +191,49 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 
 ## 📁 Project Structure
 
+
+```
+TribeBot-T9/
+│
+├── 📄 README.md                     ← You are here
+├── 📄 requirements.txt              ← Python dependencies
+├── 📄 setup.py                      ← pip installable package
+├── 📄 CONTRIBUTING.md               ← How to contribute
+├── 📄 LICENSE                       ← MIT License
+├── 📄 .gitignore
+│
+├── 🖼️  assets/
+│   ├── logo.svg                     ← Project logo
+│   └── banner.svg                   ← GitHub banner
+│
+├── ⚙️  configs/
+│   ├── model_config.py              ← ModelPresets (debug/small/medium/large/ultra)
+│   └── training_config.py          ← TrainingPresets
+│
+├── 🧠 src/tribebot/
+│   ├── model/
+│   │   ├── normalization.py         ← RMSNorm, AdvancedRMSNorm
+│   │   ├── embeddings.py            ← LearnableRoPE, SemanticDynamicVocab
+│   │   ├── lora.py                  ← LoRALayer, MultiRankLoRA
+│   │   ├── memory.py                ← 3-Scale AdvancedHierarchicalMemory
+│   │   ├── reasoning.py             ← 7 reasoning modules
+│   │   ├── attention.py             ← GQA, MultiGateSwiGLU, FFNBlock
+│   │   └── tribebot.py              ← TribeBotT9 main model
+│   │
+│   ├── training/
+│   │   └── trainer.py               ← Full training loop with AMP + checkpointing
+│   │
+│   └── utils/
+│       ├── generation.py            ← top-k/p sampling, repetition penalty
+│       └── logging_utils.py         ← Structured logging, W&B integration
+│
+├── 📜 scripts/
+│   ├── train.py                     ← Training entry point
+│   ├── evaluate.py                  ← Perplexity evaluation
+│   └── generate.py                  ← Text generation from checkpoint
+│
+└── 🧪 tests/
+    └── test_syntax.py               ← 3-level smoke tests (syntax/import/forward)
+```
+
+
