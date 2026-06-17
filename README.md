@@ -1,40 +1,38 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" alt="Banner" width="100%"/>
+</p>
 
-<img src="assets/banner.svg" alt="TribeBot T9 Banner" width="100%"/>
-
-<br/>
+# TribeBot-T9 🚀
 
 <!-- Badges -->
-<a href="https://github.com/dhaval-vedra/TribeBot-T9/stargazers">
-  <img src="https://img.shields.io/github/stars/dhaval-vedra/TribeBot-T9?style=for-the-badge&logo=github&color=a78bfa&labelColor=0f0c29" alt="Stars"/>
-</a>
-<a href="https://github.com/dhaval-vedra/TribeBot-T9/forks">
-  <img src="https://img.shields.io/github/forks/dhaval-vedra/TribeBot-T9?style=for-the-badge&logo=github&color=60a5fa&labelColor=0f0c29" alt="Forks"/>
-</a>
-<a href="https://github.com/dhaval-vedra/TribeBot-T9/blob/main/LICENSE">
-  <img src="https://img.shields.io/badge/License-MIT-34d399?style=for-the-badge&labelColor=0f0c29" alt="License"/>
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-f472b6?style=for-the-badge&logo=python&logoColor=white&labelColor=0f0c29" alt="Python"/>
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/PyTorch-2.1%2B-fbbf24?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0f0c29" alt="PyTorch"/>
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Status-Research-c084fc?style=for-the-badge&labelColor=0f0c29" alt="Status"/>
-</a>
+<p align="center">
+  <a href="https://github.com/dhaval-vedra/TribeBot-T9/stargazers">
+    <img src="https://img.shields.io/github/stars/dhaval-vedra/TribeBot-T9?style=for-the-badge&logo=github&color=a78bfa&labelColor=0f0c29" alt="Stars"/>
+  </a>
+  <a href="https://github.com/dhaval-vedra/TribeBot-T9/forks">
+    <img src="https://img.shields.io/github/forks/dhaval-vedra/TribeBot-T9?style=for-the-badge&logo=github&color=60a5fa&labelColor=0f0c29" alt="Forks"/>
+  </a>
+  <a href="https://github.com/dhaval-vedra/TribeBot-T9/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-34d399?style=for-the-badge&labelColor=0f0c29" alt="License"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Python-3.10%2B-f472b6?style=for-the-badge&logo=python&logoColor=white&labelColor=0f0c29" alt="Python"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/PyTorch-2.1%2B-fbbf24?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0f0c29" alt="PyTorch"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Status-Research-c084fc?style=for-the-badge&labelColor=0f0c29" alt="Status"/>
+  </a>
+</p>
 
-<br/><br/>
+<p align="center">
+  <img src="assets/logo.svg" alt="TribeBot T9 Logo" width="160"/>
+</p>
 
-<img src="assets/logo.svg" alt="TribeBot T9 Logo" width="160"/>
-
-<br/>
-
-### *The most feature-rich open-source reasoning LLM architecture — built for researchers who want everything in one place.*
-
-<br/>
-
-</div>
+<p align="center">
+  <em><b>The most feature-rich open-source reasoning LLM architecture — built for researchers who want everything in one place.</b></em>
+</p>
 
 ---
 
@@ -42,7 +40,7 @@
 
 Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ships **7 reasoning systems**, **3-scale memory**, **multi-rank LoRA**, **Graph + Causal + Mathematical reasoning** — all merged, all fixed, all working on CPU or GPU out of the box.
 
-> This is a **research prototype** — designed for academics, AI enthusiasts, and engineers who want to study and experiment with advanced LLM reasoning architectures.
+> 💡 This is a **research prototype** — designed for academics, AI enthusiasts, and engineers who want to study and experiment with advanced LLM reasoning architectures.
 
 ---
 
@@ -70,7 +68,7 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🧠 Advanced Reasoning Stack
 - **Recursive Self-Refinement** — quality-critique loop that iteratively improves outputs
@@ -79,7 +77,7 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 - **MetaCognition** — uncertainty-aware self-regulation with per-task goal tracking
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🔬 Structural Reasoning
 - **Graph Reasoner** — pure-PyTorch attention-based relational reasoning (zero external deps)
@@ -89,7 +87,7 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ### 💾 3-Scale Episodic Memory
 - **Short-term** — raw experience vectors (fast, 50-item buffer)
@@ -98,7 +96,7 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 - Cross-attention based retrieval — models attend to relevant past context
 
 </td>
-<td>
+<td valign="top">
 
 ### ⚡ Production Attention
 - **Grouped Query Attention (GQA)** — fewer KV heads → lower memory at scale
@@ -109,7 +107,7 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ### 🎛️ Adaptation & Efficiency
 - **Multi-Rank LoRA** — blends rank-4, 8, 16 adapters via learned soft attention weights
@@ -118,7 +116,7 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 - **Semantic Dynamic Vocab** — runtime vocabulary expansion with semantic init
 
 </td>
-<td>
+<td valign="top">
 
 ### 🛠️ Training Infrastructure
 - Mixed precision (`bfloat16 / float16 / float32`) — modern `torch.amp` API
@@ -134,65 +132,65 @@ Most open-source LLM codebases give you **just a transformer**. TribeBot T9 ship
 ---
 
 ## 🏗️ Architecture
-
 ```
-                        ┌─────────────────────────────────────────┐
-                        │          Input Token IDs [B, T]         │
-                        └───────────────────┬─────────────────────┘
-                                            │
-                        ┌───────────────────▼─────────────────────┐
-                        │  SemanticDynamicVocab + PosEmbedding    │
-                        └───────────────────┬─────────────────────┘
-                                            │
-                        ╔═══════════════════▼═════════════════════╗
-                        ║          TribeBotBlock  × N             ║
-                        ║                                         ║
-                        ║  ┌─────────────────────────────────┐   ║
-                        ║  │   AdvancedHierarchicalMemory     │   ║
-                        ║  │   Short ──► Medium ──► Long-term │   ║
-                        ║  └──────────────┬──────────────────┘   ║
-                        ║                 │                        ║
-                        ║  ┌──────────────▼──────────────────┐   ║
-                        ║  │         GraphReasoner            │   ║
-                        ║  │  (pure-PyTorch message passing)  │   ║
-                        ║  └──────────────┬──────────────────┘   ║
-                        ║                 │                        ║
-                        ║  ┌──────────────▼──────────────────┐   ║
-                        ║  │        CausalInference           │   ║
-                        ║  │   (do-calculus, interventions)   │   ║
-                        ║  └──────────────┬──────────────────┘   ║
-                        ║                 │                        ║
-                        ║  ┌──────────────▼──────────────────┐   ║
-                        ║  │   GroupedQueryAttention + RoPE   │   ║
-                        ║  │      + MultiRankLoRA adapters    │   ║
-                        ║  └──────────────┬──────────────────┘   ║
-                        ║                 │                        ║
-                        ║  ┌──────────────▼──────────────────┐   ║
-                        ║  │    FFNBlock (MultiGateSwiGLU)    │   ║
-                        ║  └──────────────┬──────────────────┘   ║
-                        ║                 │                        ║
-                        ║  ┌──────────────▼──────────────────┐   ║
-                        ║  │      MathematicalReasoner        │   ║
-                        ║  └──────────────┬──────────────────┘   ║
-                        ╚═══════════════════▼═════════════════════╝
-                                            │
-              ┌─────────────────────────────▼──────────────────────────────┐
-              │                  High-Level Reasoning Stack                 │
-              │  InternalDebate → RecursiveRefiner → MetaCognition → WorldModel │
-              └─────────────────────────────┬──────────────────────────────┘
-                                            │
-                        ┌───────────────────▼─────────────────────┐
-                        │       AdvancedRMSNorm  →  LM Head       │
-                        └───────────────────┬─────────────────────┘
-                                            │
-                        ┌───────────────────▼─────────────────────┐
-                        │          Logits / Loss [B, T, V]        │
-                        └─────────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│          Input Token IDs [B, T]         │
+└───────────────────┬─────────────────────┘
+│
+┌───────────────────▼─────────────────────┐
+│  SemanticDynamicVocab + PosEmbedding    │
+└───────────────────┬─────────────────────┘
+│
+╔═══════════════════▼═════════════════════╗
+║          TribeBotBlock  × N             ║
+║                                         ║
+║  ┌─────────────────────────────────┐   ║
+║  │   AdvancedHierarchicalMemory     │   ║
+║  │   Short ──► Medium ──► Long-term │   ║
+║  └──────────────┬──────────────────┘   ║
+║                 │                        ║
+║  ┌──────────────▼──────────────────┐   ║
+║  │         GraphReasoner            │   ║
+║  │  (pure-PyTorch message passing)  │   ║
+║  └──────────────┬──────────────────┘   ║
+║                 │                        ║
+║  ┌──────────────▼──────────────────┐   ║
+║  │        CausalInference           │   ║
+║  │   (do-calculus, interventions)   │   ║
+║  └──────────────┬──────────────────┘   ║
+║                 │                        ║
+║  ┌──────────────▼──────────────────┐   ║
+║  │   GroupedQueryAttention + RoPE   │   ║
+║  │      + MultiRankLoRA adapters    │   ║
+║  └──────────────┬──────────────────┘   ║
+║                 │                        ║
+║  ┌──────────────▼──────────────────┐   ║
+║  │    FFNBlock (MultiGateSwiGLU)    │   ║
+║  └──────────────┬──────────────────┘   ║
+║                 │                        ║
+║  ┌──────────────▼──────────────────┐   ║
+║  │   MathematicalReasoner           │   ║
+║  └──────────────┬──────────────────┘   ║
+╚═══════════════════▼═════════════════════╝
+│
+┌─────────────────────────────▼──────────────────────────────┐
+│                  High-Level Reasoning Stack                 │
+│  InternalDebate → RecursiveRefiner → MetaCognition → WorldModel │
+└─────────────────────────────┬──────────────────────────────┘
+│
+┌───────────────────▼─────────────────────┐
+│       AdvancedRMSNorm  →  LM Head       │
+└───────────────────┬─────────────────────┘
+│
+┌───────────────────▼─────────────────────┐
+│          Logits / Loss [B, T, V]        │
+└─────────────────────────────────────────┘
 ```
 
 ---
 
 ## 📁 Project Structure
+
 
 ```
 TribeBot-T9/
@@ -238,14 +236,13 @@ TribeBot-T9/
     └── test_syntax.py               ← 3-level smoke tests (syntax/import/forward)
 ```
 
----
 
 ## ⚡ Quick Start
 
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/dhaval-vedra/TribeBot-T9.git
+git clone https://github.com/yourusername/TribeBot-T9.git
 cd TribeBot-T9
 ```
 
@@ -593,7 +590,7 @@ If you use TribeBot T9 in your research, please cite:
   title   = {TribeBot T9: A Unified Advanced Reasoning LLM Architecture},
   author  = {TribeBot Research Team},
   year    = {2025},
-  url     = {https://github.com/dhaval-vedra/TribeBot-T9},
+  url     = {https://github.com/yourusername/TribeBot-T9},
   note    = {Research prototype merging T7 and T8 architectures.
              Not for production deployment without further evaluation.}
 }
@@ -627,15 +624,15 @@ This project builds on ideas from:
 
 <br/>
 
-<a href="https://github.com/dhaval-vedra/TribeBot-T9/stargazers">
-  <img src="https://img.shields.io/github/stars/dhaval-vedra/TribeBot-T9?style=social" alt="Star on GitHub"/>
+<a href="https://github.com/yourusername/TribeBot-T9/stargazers">
+  <img src="https://img.shields.io/github/stars/yourusername/TribeBot-T9?style=social" alt="Star on GitHub"/>
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/dhaval-vedra/TribeBot-T9/issues">
+<a href="https://github.com/yourusername/TribeBot-T9/issues">
   <img src="https://img.shields.io/badge/Issues-Welcome-a78bfa?style=flat-square" alt="Issues Welcome"/>
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/dhaval-vedra/TribeBot-T9/discussions">
+<a href="https://github.com/yourusername/TribeBot-T9/discussions">
   <img src="https://img.shields.io/badge/Discussions-Open-60a5fa?style=flat-square" alt="Discussions Open"/>
 </a>
 
@@ -644,5 +641,4 @@ This project builds on ideas from:
 *⭐ If this project helped you, please star it — it helps others find it too! ⭐*
 
 </div>
-#   T r i b e B o t - T 9  
- 
+
